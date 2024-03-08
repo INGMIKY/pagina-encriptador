@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+main{
+    margin-top: 50px;
+    width: 70%;
+    height: 80vh;
+    border: solid;
+    display: flex;
+}
+
+.contenidoIzquierdo{
+    border: solid;
+    width: 75%;
+    height: 100%;
+}
+
+    .logo, .inputTexto, .botones{
+        border: solid;
+    }
+
+    .logo{
+        width: 100%;
+        height: 15%;
+    }
+
+    .inputTexto{
+        width: 100%;
+        height: 70%;
+    }
+
+    .botones{
+        width: 100%;
+        height: 15%;
+    }
+
+.contenidoDerecho{
+    border: solid;
+    width: 25%;
+    height: 100%;
+}
