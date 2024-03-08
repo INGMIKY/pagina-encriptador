@@ -112,6 +112,11 @@ main{
                 color: #FFFFFF;
             }
 
+                .encriptador:hover{
+                    cursor: pointer;
+                    background: #0c4488;
+                }
+
             .desencriptador{
                 width: 48%;
                 height: 80%;
@@ -120,6 +125,11 @@ main{
                 background: #D8DFE8;
                 color: #0A3871;
             }
+
+                .desencriptador:hover{
+                    cursor: pointer;
+                    background: #ced2d8;
+                }
 
 .contenidoDerecho{
     border: solid;
