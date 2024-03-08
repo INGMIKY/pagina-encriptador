@@ -16,6 +16,7 @@ main{
     height: 80vh;
     border: solid;
     display: flex;
+    background: #F3F5FC;
 }
 
 .contenidoIzquierdo{
@@ -24,27 +25,114 @@ main{
     height: 100%;
 }
 
-    .logo, .inputTexto, .botones{
+    .contenedorLogo, .inputTexto, .contenedorBotones, .mostrarResultado{
         border: solid;
     }
 
-    .logo{
+    .contenedorLogo{
         width: 100%;
         height: 15%;
+        display: flex;
+        align-items: center;
     }
+
+        .logo{
+            
+            width: 13%;
+            height: 75%;
+            margin-left: 10px;
+        }
+
+            #logoAlura{
+                width: 100%;
+                height: 100%;
+            }
 
     .inputTexto{
         width: 100%;
         height: 70%;
     }
 
-    .botones{
+    .contenedorBotones{
         width: 100%;
         height: 15%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
     }
+
+        .contenedorSugerencia{
+            /* border: solid; */
+            width: 45%;
+            height: 25%;
+            position: absolute;
+            margin: 5px 0 0 0;
+            display: flex;
+            align-items: center;
+            color: #495057;
+        }
+
+            .consugerencia{
+                /* border: solid; */
+                width: 5%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+               
+                
+            }
+
+                #imgSugerencia{
+                    width: 15px;
+                    height: 15px;
+                }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+       .botones{
+        /* border: solid; */
+        width: 45%;
+        height: 60%;
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+
+            .encriptador{
+                width: 48%;
+                height: 80%;
+                border: 1px solid #0A3871;
+                border-radius: 15px;
+                background: #0A3871;
+                color: #FFFFFF;
+            }
+
+            .desencriptador{
+                width: 48%;
+                height: 80%;
+                border: 1px solid #0A3871;
+                border-radius: 15px;
+                background: #D8DFE8;
+                color: #0A3871;
+            }
 
 .contenidoDerecho{
     border: solid;
     width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+    .mostrarResultado{
+        width: 90%;
+        height: 95%;
+        border-radius: 32px;
+    }
+
