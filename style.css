@@ -25,7 +25,7 @@ main{
     height: 100%;
 }
 
-    .contenedorLogo, .inputTexto, .contenedorBotones, .mostrarResultado{
+    .contenedorLogo, .contenedorInput, .contenedorBotones, .mostrarResultado{
         border: solid;
     }
 
@@ -48,10 +48,29 @@ main{
                 height: 100%;
             }
 
-    .inputTexto{
+    .contenedorInput{
         width: 100%;
         height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+        .cajaTexto{
+            /* border: solid; */
+            width: 80%;
+            height: 90%;
+        }
+
+            textarea{
+                width: 100%;
+                height: 100%;
+                resize: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                background: #F3F5FC;
+                /* border: none; */
+            }
 
     .contenedorBotones{
         width: 100%;
