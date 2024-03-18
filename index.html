@@ -36,15 +36,17 @@
                 <div class="botones">
                     
                     <button onclick="btnEncriptar()" class="encriptador"><p>Encriptar</p></button>
-                    <button class="desencriptador"><p>Desencriptar</p></button>
+                    <button onclick="btnDesencriptar()" class="desencriptador" ><p>Desencriptar</p></button>
                 </div>
             </div>
         </section>
 
         <section class="contenidoDerecho">
             <div class="mostrarResultado">
-                
+                <output id="resultadoTexto"></output>
+                <button onclick="btnCopiar()" id="copiar" class="copiador"><p>Copiar</p></button>
             </div>
+           
         </section>
     </main>
 
