@@ -177,7 +177,16 @@ main{
         flex-wrap: wrap;
         justify-content: center;
         background: white;
+        /* border: solid; */
+        position: relative;
     }
+        .sinTexto{
+             position: absolute;
+            width: 100%;
+            height: 90%;
+            /* display: none; */
+           
+        }
 
         #resultadoTexto{
             width: 100%;

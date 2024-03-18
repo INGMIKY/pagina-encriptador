@@ -32,8 +32,20 @@ function btnDesencriptar(){
         document.querySelector('#textoUsuario').value= '';
         let btnCopiarr = document.querySelector('#copiar');
         btnCopiarr.style.display="block";
+        document.querySelector('#imgTexto').style.display="none";
     }
     
+}
+
+function btnCopiar(){
+    let resultadoTexto = document.querySelector('#resultadoTexto').value;
+    navigator.clipboard.writeText(resultadoTexto)
+    .then(() => {
+        console.log('Contenido copiado al portapapeles');
+    },() => {
+        console.error('Error al copiar');
+    } );
+    alert("Texto copiado!");
 }
 
 
