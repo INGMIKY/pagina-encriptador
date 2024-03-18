@@ -16,6 +16,7 @@ function btnEncriptar(){
         document.querySelector('#textoUsuario').value="";
         let btnCopiarr = document.querySelector('#copiar');
         btnCopiarr.style.display="block";
+        document.querySelector('#imgTexto').style.display="none";
     }
 }
 
