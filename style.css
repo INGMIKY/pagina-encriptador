@@ -239,3 +239,37 @@ footer{
         color: white;
         border: solid;
     }
+
+@media screen and (max-width:480px){
+
+    /* .contenidoHead{
+        width: 100%;
+    } */
+
+    main{
+        width: 100%;
+    }
+    
+    .titulo{
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avisoLetras{
+        font-size: 8px;
+        margin-left: 15px;
+    }
+
+    .botones{
+        width: 80%;
+    }
+
+    .contenidoDerecho{
+        width: 55%;
+    }
+}
